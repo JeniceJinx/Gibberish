@@ -1,0 +1,71 @@
+Terminal Practice 
+Set up
+
+jenicemcdaniel@Jenices-MBP example_repo % mkdir galaxy-far-far-away
+jenicemcdaniel@Jenices-MBP example_repo % cd galaxy-far-far-away 
+jenicemcdaniel@Jenices-MBP galaxy-far-far-away % touch commands.txt
+jenicemcdaniel@Jenices-MBP galaxy-far-far-away % open commands.txt
+jenicemcdaniel@Jenices-MBP galaxy-far-far-away % 
+
+jenicemcdaniel@Jenices-MBP galaxy-far-far-away % mkdir tatooine
+jenicemcdaniel@Jenices-MBP galaxy-far-far-away % cd tatooine/
+
+jenicemcdaniel@Jenices-MBP galaxy-far-far-away % mkdir death_star
+jenicemcdaniel@Jenices-MBP galaxy-far-far-away % cd death_star 
+jenicemcdaniel@Jenices-MBP death_star % 
+
+jenicemcdaniel@Jenices-MBP death_star % touch darth_vader.txt princess_leia.txt storm_trooper.txt
+jenicemcdaniel@Jenices-MBP death_star % ls
+darth_vader.txt		princess_leia.txt	storm_trooper.txt
+jenicemcdaniel@Jenices-MBP death_star % 
+
+jenicemcdaniel@Jenices-MBP tatooine % touch luke.txt && ben_kenobi.txt
+zsh: command not found: ben_kenobi.txt
+jenicemcdaniel@Jenices-MBP tatooine % touch ben_kenobi.txt 
+jenicemcdaniel@Jenices-MBP tatooine % 
+
+
+jenicemcdaniel@Jenices-MBP tatooine % ls
+ben_kenobi.txt	luke.txt
+jenicemcdaniel@Jenices-MBP tatooine % 
+
+jenicemcdaniel@Jenices-MBP tatooine % mkdir millenium_falcon
+jenicemcdaniel@Jenices-MBP tatooine % 
+
+jenicemcdaniel@Jenices-MBP tatooine % cd millenium_falcon 
+jenicemcdaniel@Jenices-MBP millenium_falcon % 
+
+jenicemcdaniel@Jenices-MBP millenium_falcon % touch han_solo.txt chewbaca.txt
+jenicemcdaniel@Jenices-MBP millenium_falcon % ls
+chewbaca.txt	han_solo.txt
+jenicemcdaniel@Jenices-MBP millenium_falcon % 
+
+jenicemcdaniel@Jenices-MBP millenium_falcon % cd ..
+jenicemcdaniel@Jenices-MBP tatooine % 
+
+
+jenicemcdaniel@Jenices-MBP tatooine % mv ben_kenobi.txt obi_wan.txt
+jenicemcdaniel@Jenices-MBP tatooine % ls
+luke.txt		millenium_falcon	obi_wan.txt
+jenicemcdaniel@Jenices-MBP tatooine % 
+
+
+enicemcdaniel@Jenices-MBP galaxy-far-far-away % cd tatooine 
+jenicemcdaniel@Jenices-MBP tatooine % cd ..
+jenicemcdaniel@Jenices-MBP galaxy-far-far-away % cd death_star 
+jenicemcdaniel@Jenices-MBP death_star % cp storm_trooper.txt ~/tatooine/
+cp: directory /Users/jenicemcdaniel/tatooine does not exist
+jenicemcdaniel@Jenices-MBP death_star % cp storm_trooper.txt ~/galaxy-far-far-away/tatooine/
+cp: /Users/jenicemcdaniel/galaxy-far-far-away/tatooine: Not a directory
+jenicemcdaniel@Jenices-MBP death_star % cp storm_trooper.txt ~/example_repo/galaxy-far-far-away/tatooine/
+jenicemcdaniel@Jenices-MBP death_star % ls
+darth_vader.txt		princess_leia.txt	storm_trooper.txt
+jenicemcdaniel@Jenices-MBP death_star % cd ..
+jenicemcdaniel@Jenices-MBP galaxy-far-far-away % ls
+commands.txt	death_star	tatooine
+jenicemcdaniel@Jenices-MBP galaxy-far-far-away % cd tatooine
+jenicemcdaniel@Jenices-MBP tatooine % ls
+luke.txt		millenium_falcon	obi_wan.txt		storm_trooper.txt
+jenicemcdaniel@Jenices-MBP tatooine % 
+
+
