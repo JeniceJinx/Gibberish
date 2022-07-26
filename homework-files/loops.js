@@ -55,6 +55,6 @@ for (var i = 0; i < 9; i++) {
   else if (i === 2) console.log(i + " for the bass");
   else if (i === 3) console.log(i + " for the fellas");
   else if (i === 4) console.log(i + " for the plaid");
-  else if (i === 5) console.log(i + " , minutes of funk, this ain't no junk So pull your bottom, off the tree stump" + "  Ladies real pretty, from city to city, But now we're gettin down to the nitty gritty" + "  From the bottom to the top, the top to the bottom, I'm gonna rock em, while I still got em" + " Our rappin shower has style and power" + "   And this, is our disco hour");
+  else if (i === 5) console.log(i + " , minutes of funk, this ain't no junk So pull your bottom, off the tree stump" + " fellas real pretty, from city to city, But now we're gettin down to the nitty gritty" + "  From the bottom to the top, the top to the bottom, I'm gonna rock em, while I still got em" + " Our rappin shower has style and power" + "   And this, is our disco hour");
   else console.log(i);
 }
