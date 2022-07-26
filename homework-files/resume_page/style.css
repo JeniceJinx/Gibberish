@@ -1,0 +1,29 @@
+header{
+text-align: center;
+font-family: "Lucinda Handwriting", cursive;
+}
+ figure{
+    margin-left: 300px;
+ }
+
+ body{
+    background-color: darkturquoise;
+ }
+table{
+    width: 50%;
+    position: relative;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+  }
+
+
+table, th, td{
+    border: 2px solid black;
+    color: purple;
+    background-color: aqua;
+  }
+
+  
