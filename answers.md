@@ -88,6 +88,14 @@ Fake Resume Page - Adding content
     
     https://iconarchive.com/download/i75878/martz90/circle/linkedin.ico
     https://i.pinimg.com/736x/5e/ff/6c/5eff6c25d920f6a78fda288e6589bf8b.jpg
+    
+To create a top navigation bar (w3schools)
+    <div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+</div>
 
 Fake Resume Page - Adding Style
 

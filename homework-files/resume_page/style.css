@@ -1,14 +1,58 @@
 header{
 text-align: center;
+font-size: 75px;
 font-family: "Lucinda Handwriting", cursive;
+border: 1px;
 }
- figure{
-    margin-left: 300px;
+
+h1{
+  font-family: "Lucinda Handwriting", cursive;
+  text-align:  center;
  }
 
- body{
-    background-color: darkturquoise;
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figure figcaption {
+  text-align: center;
+}
+.topnav{
+  text-align: center;
+  word-spacing: 15px;
+  background-color: white;
+  overflow: hidden;
+}
+
+h3{
+  color: maroon;
+}
+
+body{
+    background-color:whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
  }
+ * {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; 
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ ul{
+  font-style: italic;
+ }
+
 table{
     width: 50%;
     position: relative;
@@ -21,7 +65,7 @@ th, td {
 
 
 table, th, td{
-    border: 2px solid black;
+    border: 1px solid black;
     color: purple;
     background-color: aqua;
   }
