@@ -86,20 +86,20 @@ Porgee decides that Wolfy can't be named "Wolfy" anymore. Remove "Wolfy" from th
 
 //Create an array with the members of the ninja turtles (Donatello, Leonardo, Raphael, Michaelangelo)
 
-const ninjaTurtles = ['Donatello','Leonardo', 'Raphael', 'Michaelangelo ' ];
+// const ninjaTurtles = ['Donatello','Leonardo', 'Raphael', 'Michaelangelo ' ];
 
 
-console.log(ninjaTurtles);
+// console.log(ninjaTurtles);
 
-//Use a for of loop (not a typo - try it out! Try a for of loop) to call toUpperCase() on each of them and print out the result.
+// //Use a for of loop (not a typo - try it out! Try a for of loop) to call toUpperCase() on each of them and print out the result.
 
-//const ninjaTurtles= ['Donatello','Leonardo', 'Raphael', 'Michaelangelo']
+// //const ninjaTurtles= ['Donatello','Leonardo', 'Raphael', 'Michaelangelo']
 
-//console.log(ninjaTurtles);
+// //console.log(ninjaTurtles);
 
- for(const names of ninjaTurtles) {
- console.log(names.toUpperCase());
-}
+//  for(const names of ninjaTurtles) {
+//  console.log(names.toUpperCase());
+// }
 
 // console.log(ninjaTurtles);
 
@@ -116,7 +116,7 @@ console.log(ninjaTurtles);
 // console.log(favMovies.push('Guardians of the Galazy'));
 // console.log(favMovies);
 // console.log(favMovies.reverse());
-// // console.log(favMovies);
+//  console.log(favMovies);
 
 // console.log(favMovies);
 // console.log(favMovies.shift());

@@ -29,17 +29,12 @@ EASY GOING
 git Commit -m "easy going answered"
 
 
-GET EVEN
-
-    Write a for loop that will log only the even numbers in 0 through 200.
-    
-    for(i = 0; i <= 200; i++){
+for(i = 0; i <= 200; i++){
   let evenNumber = (i % 2 === 0)
   if(evenNumber){
       console.log(i);
   }
 }
-
 console.log(i);
 
 
