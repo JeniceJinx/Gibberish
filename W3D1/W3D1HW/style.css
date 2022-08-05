@@ -1,3 +1,41 @@
+.toast{
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    max-width: 400px;
+    padding: 6px;
+    background: #cccccc;
+    font-family: sans-serif;
+    text-align: center;
+    border: 1px solid #aaaaaa;
+    border-radius: 5px;
+    box-shadow: 0 0 10 rgba(0,0,0,0.2);
+
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s, top 0.2s, visibility 0.2s;
+}
+
+.toast--visible{
+    top: 20px;
+    opacity: 1;
+    visibility: visible;
+}
+
+.toast--success{
+    background: #00c02b;
+    border-color: #009d23;
+    color: #ffffff;
+}
+
+.toast--error{
+    background: #D50000;
+    border-color: #BA0000;
+    color: #ffffff;
+}
 .cards{
     margin: 0 auto;
     max-width: 1000px;
@@ -8,7 +46,7 @@
 }
 
 .card{
-    box-shadow: 0 0 3px rgba(0,0,0,0.1);
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
 
 }
 
@@ -62,3 +100,4 @@
 p{
     color: green;
 }
+
