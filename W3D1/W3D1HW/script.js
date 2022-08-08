@@ -49,3 +49,47 @@ if (alertTrigger) {
   });
 }
 
+const AlertWindow = {
+  init(){
+    document.body.addEventListener("click", e =>{
+      if(e.target.classList.contains("alert__close")){
+        this.closeAlert(e.target);
+      }
+    });
+  },
+
+  getHtmlTemplate(alertOptions){
+    return `
+    <div class="alert__overlay">
+    <div class="alert__window">
+        <div class="alert__titlebar">
+        <span class="alert__titlebar">${alertOptions.title}</span>
+        <button class="alert__close material-icons">close</button>
+    </div>
+    <div class="alert__content">
+       ${alertOptions.content}
+    </div>
+   </div>
+ </div>
+    `;
+  },
+
+  openAlert(alertOptions = {}){
+      alertOptions = Object.assign({
+        title: 'Alert Title',
+        content: 'Alert Content'
+      }, alertOptions);
+
+      const alertTemplate = this.getHtmlTemplate(alertOptions);
+      document.body.insertAdjacentHTML('afterbegin',alertTemplate);
+
+  },
+    closeAlert(closeButton){
+      const alertOverlay = closeButton.parentElement.parentElement.parentElement;
+      document.body.removeChild(alertOverlay);
+    }
+
+};
+
+
+document.addEventListener('DOMContentLoaded', () => AlertWindow.init());
